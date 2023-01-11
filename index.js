@@ -9,7 +9,7 @@ const intercom = new Intercom.Client({ token: 'dG9rOjgyNWRjZjg0XzFhZjVfNDI1M19iZ
 passport.use(new IntercomStrategy({
   clientID: '2a5d8009-e000-4c17-83e5-3decbb3f6a3f',
   clientSecret: '4858ff34-10d9-4f73-9362-52da18046da1',
-  callbackURL: "https://replit.com/@krasnobai13/test#index.js"
+  callbackURL: "https://git.heroku.com/hidden-coast-72867.git"
 },
   function(accessToken, refreshToken, profile, done) {
     // Find or create the user in your database here
